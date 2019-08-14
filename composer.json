@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Curkle-Magento-addressAutoComplete",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Helping Customer enter their address easily for both desktop and mobile checkout using google map api.
+",
+    "authors": [
+    {
+        "name": "Curkle Inc",
+        "email": "vincent@curkle.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
