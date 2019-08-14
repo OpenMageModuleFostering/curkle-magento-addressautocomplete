@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Curkle-Magento-addressAutoComplete</name>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
@@ -21,9 +21,9 @@ for more detail.&#xD;
 </description>
     <notes>https://github.com/curkle/Magento-addressAutoComplete</notes>
     <authors><author><name>Curkle Inc</name><user>Vincent</user><email>vincent@curkle.com</email></author></authors>
-    <date>2015-02-09</date>
-    <time>21:08:35</time>
-    <contents><target name="magelocal"><dir><dir name="Curkle"><dir name="AddressAutoComplete"><dir name="Helper"><file name="Data.php" hash="4b5a3add62ee4675a26d55401f73e3ab"/></dir><dir name="etc"><file name="config.xml" hash="d54d81d0d4c65fae13d7b30fc82c512e"/></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="addressautocomplete.xml" hash="2bdb43e6883c943502c06d8999cf7599"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Curkle_AddressAutoComplete.xml" hash="8f5bcdc33e325b6ce6e3fedb6461aeb7"/></dir></dir></target><target name="mageskin"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><dir name="addressautocomplete"><file name="onstepcheckout.js" hash="65c97e67ab1b8b38ef06ae49c2cde274"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <date>2015-05-05</date>
+    <time>14:33:14</time>
+    <contents><target name="magelocal"><dir><dir name="Curkle"><dir name="AddressAutoComplete"><dir name="Helper"><file name="Data.php" hash="4b5a3add62ee4675a26d55401f73e3ab"/></dir><dir name="etc"><file name="config.xml" hash="4f6bc617bc18f21bed05a54856a0f745"/></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="addressautocomplete.xml" hash="2cad3dcb4d3b0104685c9b166b4d90e4"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Curkle_AddressAutoComplete.xml" hash="3a0d921d9c75d7b9769c9ce0f615bd34"/></dir></dir></target><target name="mageskin"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><dir name="addressautocomplete"><file name="map.js" hash="b96dd9dd31ca6e3ad9d4c8e1ff4db617"/><file name="onstepcheckout.js" hash="65c97e67ab1b8b38ef06ae49c2cde274"/><file name="onstepcheckout_shipping.js" hash="aeb2d90982a8ae60506fad5c592f8859"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

@@ -2,7 +2,7 @@
 <config>
   <modules>
     <Curkle_AddressAutoComplete>
-      <version>0.1.2</version>
+      <version>0.1.4</version>
     </Curkle_AddressAutoComplete>
   </modules>
   <frontend>
@@ -14,6 +14,15 @@
               </updates>
         </layout>
   </frontend>
+   <adminhtml>
+        <layout>
+            <updates>
+                <addressautocomplete>
+                    <file>addressautocomplete.xml</file>
+                </addressautocomplete>
+            </updates>
+        </layout>
+  </adminhtml>
   <global>
     <helpers>
       <addressautocomplete>
